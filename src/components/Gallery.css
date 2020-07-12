@@ -1,0 +1,164 @@
+.container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.search {
+	margin-right: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid grey;
+	padding: 3px;
+	padding-left: 5px;
+}
+
+input {
+	width: 80%;
+	height: 40px;
+}
+
+.photo {
+	display: flex;
+	/* 
+  justify-content: center;
+  align-items: center; */
+	background: #fffffe;
+	margin: 20px;
+	color: #094067;
+	width: 30%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.heading {
+	width: 100%;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	left: 50%;
+}
+.fullscreen {
+	position: fixed;
+	overflow-y: scroll;
+	left: 0px;
+	top: 0px;
+	z-index: 20;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	background: white;
+}
+
+.closeContainer {
+	display: flex;
+	justify-content: flex-end;
+	width: 100vw;
+	height: 50px;
+	position: relative;
+	right: 20px;
+}
+
+.menu-icon-x-gall {
+	margin-top: 20px;
+	width: 40px;
+	height: 40px;
+}
+
+.mob-menu1-x-gall,
+.mob-menu3-x-gall {
+	width: 40px;
+	height: 3px;
+	background-color: #353535;
+	/* margin: 6px; */
+}
+
+.mob-menu1-x-gall {
+	-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+	transform: rotate(-45deg) translate(-10px, 6px);
+}
+
+.mob-menu3-x-gall {
+	-webkit-transform: rotate(45deg) translate(-9px, 6px);
+	transform: rotate(45deg) translate(4px, 8px);
+}
+
+button {
+	float: right;
+}
+
+.searchButton {
+	margin-top: 70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.filtersButton {
+	height: 40px;
+	border: 1px solid grey;
+	background: #e4e4e4;
+}
+
+.filtersButton:hover {
+	background: white;
+}
+
+.highlightImg {
+	width: 100%;
+	height: auto;
+}
+
+.imageDiv {
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.descriptionDiv {
+	text-align: center;
+	padding: 10px;
+}
+
+h4 {
+	color: grey;
+	font-weight: 400;
+	margin-bottom: 0px;
+	font-size: 1.1em;
+}
+
+.descriptionDiv h3 {
+	margin-top: 0px;
+	font-size: 1.5em;
+
+	color: #353535;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+@media (min-width: 700px) {
+	.fullContainer {
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.descriptionDiv {
+		width: 50%;
+	}
+
+	.imageDiv {
+		margin-top: 0px;
+		width: 50%;
+		text-align: center;
+	}
+
+	.highlightImg {
+		width: 70%;
+		/* max-height: 90vh; */
+	}
+}

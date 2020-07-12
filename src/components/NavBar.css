@@ -1,0 +1,9 @@
+@media (max-width: 576px) {
+	.nav-bar {
+		background: white;
+	}
+
+	#transparent {
+		background: none;
+	}
+}

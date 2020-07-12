@@ -1,0 +1,78 @@
+.my-masonry-grid {
+	display: -webkit-box; /* Not needed if autoprefixing */
+	display: -ms-flexbox; /* Not needed if autoprefixing */
+	display: flex;
+	margin-left: -30px; /* gutter size offset */
+	width: auto;
+}
+.my-masonry-grid_column {
+	padding-left: 30px; /* gutter size */
+	background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div {
+	/* change div to reference your elements you put in <Masonry> */
+	background: rgb(255, 255, 255);
+	margin-bottom: 30px;
+}
+
+.spinner2 {
+	align-self: center;
+}
+
+.padded-image {
+	/* padding: 10%; */
+
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 10px;
+}
+.shadow-image {
+	/* padding: 10%; */
+
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 10px;
+}
+.infinite-scroll {
+	text-align: center;
+}
+
+.infinite-scroll-gallery {
+	text-align: center;
+}
+
+.imageDetails h5 {
+	font-size: 1.2em;
+	color: #353535;
+}
+
+.imageDetails h6 {
+	color: #7c7c7c;
+}
+
+.filtersButton {
+	margin-right: 20px;
+}
+
+.imageDetails {
+	text-align: left;
+}
+
+#imageId {
+	padding: 0px;
+}
+
+@media (max-width: 576px) {
+	h1 {
+		position: relative;
+		z-index: 11;
+		font-size: 2em;
+	}
+	.flexWrap {
+		flex-wrap: wrap;
+	}
+
+	.filtersButton {
+		margin-top: 10px;
+	}
+}

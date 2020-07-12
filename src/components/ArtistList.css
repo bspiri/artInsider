@@ -1,0 +1,105 @@
+.ArtistList {
+	display: flex;
+	justify-content: center;
+}
+h1 {
+	/* border-bottom: 1px solid gray; */
+	margin: 2% 2%;
+	text-align: center;
+	letter-spacing: 5px;
+	width: 100%;
+}
+
+h4 {
+	margin: 2% 2%;
+	text-align: center;
+}
+.ArtistList ul {
+	margin-bottom: 0;
+}
+
+.artistSearch {
+	margin-bottom: 50px;
+	margin-top: 50px;
+	width: 90%;
+}
+
+.ArtistList ul li {
+	cursor: pointer;
+	margin: 15px 15px;
+	margin-right: 50px;
+}
+.modal-detail {
+	width: 90vw !important;
+	max-width: 90vw !important;
+}
+/* #modalFix {
+  border-radius: 0px;
+} */
+.modal-content {
+	border-radius: 0px;
+}
+
+/* .ArtistWorks img {
+  max-height: 15vh;
+} */
+.img {
+	margin: 20px;
+}
+.date {
+	text-align: center;
+}
+
+.artistImage {
+	width: 100%;
+}
+
+.artist-masonry-grid {
+	display: -webkit-box; /* Not needed if autoprefixing */
+	display: -ms-flexbox; /* Not needed if autoprefixing */
+	display: flex;
+	margin-left: -30px; /* gutter size offset */
+	width: auto;
+}
+.artist-masonry-grid_column {
+	padding-left: 50px; /* gutter size */
+	background-clip: padding-box;
+}
+
+/* Style your items */
+.artist-masonry-grid_column > div {
+	/* change div to reference your elements you put in <Masonry> */
+	background: rgb(255, 255, 255);
+	margin-bottom: 30px;
+}
+.padded-image {
+	padding: 10%;
+}
+
+.nopadding {
+	margin-top: 0px;
+}
+.imageArtistDetails {
+	margin-left: 20px;
+}
+
+.no-flex {
+	display: block;
+}
+
+.artistSearch2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+@media (max-width: 700px) {
+	.artist-masonry-grid_column {
+		padding-left: 0px;
+	}
+
+	.artistSearch {
+		margin-top: 60px;
+	}
+}

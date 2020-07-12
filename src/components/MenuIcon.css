@@ -1,0 +1,62 @@
+/***************** Menu_Icon component ***************/
+
+.menu-icon {
+	display: inline-block;
+	margin: 10px;
+	margin-right: 20px;
+	/* transition: transform 1700ms; */
+}
+
+.mob-menu1,
+.mob-menu2,
+.mob-menu3 {
+	width: 50px;
+	height: 3px;
+	background-color: #353535;
+	margin: 8px;
+
+	transition: transform 700ms;
+}
+
+.mob-menu2 {
+	width: 40px;
+	position: relative;
+	left: 10px;
+}
+
+.mob-menu3 {
+	width: 30px;
+	position: relative;
+	left: 20px;
+}
+
+.white {
+	background: white;
+}
+
+.nav-bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	overflow-x: hidden;
+	width: 100vw;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+
+#transparent {
+	background: none;
+}
+
+/***************** Hover-anim ***************/
+
+/* .menu-icon:hover {
+  transform: rotate(180deg);
+} */
+
+.mob-menu2:hover,
+.mob-menu1:hover,
+.mob-menu3:hover {
+	transform: rotate(180deg);
+}
