@@ -1,11 +1,10 @@
+# artInsider React Web Application
+
 An online art gallery group project created with a public API. 
 
-Technologies used:
+## Technologies used:
 
--React
-
--React-bootstrap 
-
--Axios
-
--Lifecycle methods 
+- React
+- React-bootstrap 
+- Axios
+- Lifecycle methods 
