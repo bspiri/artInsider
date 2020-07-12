@@ -68,7 +68,7 @@ class ArtistList extends React.Component {
 			currentArtistDate: date,
 		});
 	};
-	sortArtists() {}
+	sortArtists() { }
 
 	componentDidMount() {
 		axios
@@ -210,11 +210,4 @@ class ArtistList extends React.Component {
 
 export default ArtistList;
 
-// .filter((item) => {
-// 	return (
-// 	  this.state.searchField === "" ||
-// 	  item.displayname
-// 		.toLocaleLowerCase()
-// 		.includes(this.state.searchField.toLocaleLowerCase())
-// 	);
-//   })
+
